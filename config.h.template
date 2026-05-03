@@ -1,0 +1,33 @@
+/**
+ * AlphaSign32 Build Configuration
+ * 
+ * This file is auto-generated from .env during build.
+ * DO NOT EDIT MANUALLY - changes will be overwritten.
+ * 
+ * To customize: copy .env.example to .env and edit values there.
+ */
+
+#ifndef ALPHASIGN32_CONFIG_H
+#define ALPHASIGN32_CONFIG_H
+
+// Serial/UART Pin Configuration
+#define ALPHASIGN_RX_PIN ${ALPHASIGN_RX_PIN}
+#define ALPHASIGN_TX_PIN ${ALPHASIGN_TX_PIN}
+#define POWER_CONTROL_PIN ${POWER_CONTROL_PIN}
+
+// Debug Settings
+#define DEBUG_SERIAL_BAUD ${DEBUG_SERIAL_BAUD}
+#define ENABLE_DEBUG ${ENABLE_DEBUG}
+
+// Timing Configuration
+#define MONITOR_INTERVAL_MS ${MONITOR_INTERVAL_MS}
+#define SERIAL_TIMEOUT_MS ${SERIAL_TIMEOUT_MS}
+
+// Wifi Configuration (optional)
+#define WIFI_SSID "${WIFI_SSID}"
+#define WIFI_PASSWORD "${WIFI_PASSWORD}"
+
+// OTA Configuration
+#define OTA_HOSTNAME "${OTA_HOSTNAME:-alphasign32}"
+
+#endif // ALPHASIGN32_CONFIG_H

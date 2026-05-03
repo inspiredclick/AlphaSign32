@@ -1,0 +1,49 @@
+# Auto-generated configuration
+config.h
+
+# Environment files with sensitive data
+.env
+
+# Arduino build artifacts
+build/
+*.hex
+*.bin
+*.elf
+*.eep
+*.lss
+*.map
+*.sym
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+py/
+*.pdf
