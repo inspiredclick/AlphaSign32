@@ -392,7 +392,7 @@ The library implements the Alpha Communications Protocol:
 
 ## License
 
-Converted from (Python alphasign library)[https://github.com/msparks/alphasign]. See original project for license details.
+Converted from [Python alphasign library](https://github.com/msparks/alphasign). See original project for license details.
 
 ## Credits
 
