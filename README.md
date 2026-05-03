@@ -392,12 +392,12 @@ The library implements the Alpha Communications Protocol:
 
 ## License
 
-Converted from Python alphasign library. See original project for license details.
+Converted from (Python alphasign library)[https://github.com/msparks/alphasign]. See original project for license details.
 
 ## Credits
 
 Based on the Python alphasign library for controlling Alpha LED signs.
-Converted to C++ for ESP32 by Andrew at Inspired Click.
+Converted to C++ for ESP32.
 
 ## Support
 
