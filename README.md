@@ -2,6 +2,8 @@
 
 ESP32 C++ library for controlling LED matrix signs (Alpha American, Betabrite) using the Alpha Communications Protocol over UART/GPIO.
 
+![sign picture](./sign.gif)
+
 ## Features
 
 ### Protocol & Hardware
